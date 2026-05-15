@@ -1,0 +1,8 @@
+name = "resume-worker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Fallback values — real values come from .env (Part 1 & 2)
+# or from AWS Secrets Manager via Secrets Hub (Part 3)
+# CONTACT_EMAIL and CONTACT_PHONE are set in .env, not here.
